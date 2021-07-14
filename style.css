@@ -8,8 +8,16 @@ body {
     justify-content: center;
 }
 
+.text-gray {
+    color: #777;
+}
+
 .bold {
     font-weight: 900;
+}
+
+.bold-light {
+    font-weight: 500;
 }
 
 #topbar {
@@ -56,4 +64,38 @@ body {
     border-radius: 50%;
     width: 112px;
     height: 112px;
+}
+
+.sidebar-li > a:hover {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    color: #777;
+    border-radius: 0;
+}
+
+.sidebar-li {
+    width: 100%;
+}
+
+.li-active > a {
+    color: crimson;
+    border-left: 5px solid crimson !important;
+}
+
+.li-active {
+    background-color: rgb(245, 245, 245);
+}
+
+.scrollable {
+    height: 400px;
+    overflow: scroll;
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+}
+  
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: #ccc;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
 }
