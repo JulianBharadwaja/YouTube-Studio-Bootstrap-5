@@ -20,6 +20,7 @@ body {
     font-weight: 500;
 }
 
+/* TOP NAVBAR */
 #topbar {
     padding: 12px 24px 12px 16px  !important;
     height: 40px;
@@ -105,9 +106,12 @@ body {
     margin: 20px auto;
 }
 
+
 .img-inside {
     width: 100%;
 }
+
+/* CONTENT AREA */
 
 .youtube-card-text {
     font-size: 12px;
