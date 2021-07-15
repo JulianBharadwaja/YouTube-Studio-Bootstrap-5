@@ -99,3 +99,81 @@ body {
     background-color: #ccc;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
 }
+
+.img-card-container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.img-inside {
+    width: 100%;
+}
+
+.youtube-card-text {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.card-text {
+    font-size: 11px;
+    color: #777;
+    line-height: 1.5;
+}
+
+.card-body > a {
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    padding: 16px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.current-sub {
+    font-size: 13px;
+}
+
+.current-subnum {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.new-tab {
+    pointer-events: none; 
+    display: block; 
+    width:12px; 
+    color: #0D6EFD;
+}
+
+.news-link {
+    cursor: pointer;
+}
+
+.news-link:hover {
+    color: #0D6EFD;
+    opacity: 1;
+}
+
+.sub-img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.cmt-img {
+    width: 20px;
+    border-radius: 50%;
+}
+
+.cmt-video {
+    width: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .side-nav {
+        visibility: hidden;
+    }
+}
+
+
+
+
